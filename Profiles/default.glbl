@@ -18,4 +18,11 @@
       <protected>false</protected>
       <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>11</initValue>
+      <name>userId</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

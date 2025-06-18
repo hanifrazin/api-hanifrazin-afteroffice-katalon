@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>PUT - Update Data User</name>
+   <name>GET - Single User</name>
    <tag></tag>
-   <elementGuidId>d449951f-e80f-438b-a1b6-ff3ee52fd331</elementGuidId>
+   <elementGuidId>85e16f89-fd19-4226-a566-c06db3c15534</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;Harris Gunawan\&quot;,\n    \&quot;job\&quot;: \&quot;QA Engineer\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -45,8 +41,8 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/api/users/${GlobalVariable.userId}</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${GlobalVariable.baseUrl}/api/users/${GlobalVariable.id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

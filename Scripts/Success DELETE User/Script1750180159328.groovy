@@ -24,7 +24,10 @@ WS.verifyResponseStatusCode(resp_list, 200)
 
 def json_list = new JsonSlurper().parseText(resp_list.getResponseText())
 
-GlobalVariable.id = json_list.data[0].id
+Random rand = new Random();
+int randIndex = rand.nextInt(json_list.data.size())
+
+GlobalVariable.id = json_list.data[randIndex].id
 
 resp_del = WS.sendRequestAndVerify(findTestObject('DELETE - Data User'))
 
